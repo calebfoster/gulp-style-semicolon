@@ -15,5 +15,11 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-mocha": "^5.0.0"
-  }
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "style",
+    "semicolon"
+  ]
 }
