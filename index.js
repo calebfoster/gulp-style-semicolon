@@ -17,7 +17,7 @@ function gulpStyleSemicolon() {
         if (file.isBuffer()) {
             var html = file.contents.toString();
 
-            html = html.replace(/style="((.*)[^;])"/gm, 'style="$1;"');
+            html = html.replace(/style=\"(.*?);??\"/gm, 'style="$1;"');
 
             file.contents = new Buffer(html);
         }
